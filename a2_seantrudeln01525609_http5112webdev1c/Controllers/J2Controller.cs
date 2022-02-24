@@ -10,6 +10,13 @@ namespace a2_seantrudeln01525609_http5112webdev1c.Controllers
 {
     public class J2Controller : ApiController
     {
+        /// <summary>
+        /// Output total number of ways to roll sum value of 10 using 2 dice where the number of their faces are determined by user input
+        /// </summary>
+        /// <param name="m"></param>
+        /// <param name="n"></param>
+        /// <returns>Output total number of ways to get sum of 10 as a string message</returns>
+
         //test: localhost/api/J2/DiceGame/6/8 should return "There are 5 total ways to get the sum 10."
         //test: localhost/api/J2/DiceGame/12/4 should return "There are 4 total ways to get the sum 10."
         //test: localhost/api/J2/DiceGame/3/3 should return "There are 0 total ways to get the sum 10."
